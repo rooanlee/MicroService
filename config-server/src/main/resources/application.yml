@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://git.oschina.net/
+          search-paths: config-repo
+          username: icanos
+          password: wj173749
+
+server:
+  port: 8888
